@@ -1,0 +1,21 @@
+/* Shell CSS file */
+
+* { margin: 0px;
+    padding: 0px;
+}
+
+body {background: yellow;
+}
+
+p{
+    background: white;
+    color: red;
+}
+
+h1.first{
+    color: blue;
+}
+
+#name {
+    color:orange;
+}
