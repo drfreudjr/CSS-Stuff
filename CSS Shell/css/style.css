@@ -7,8 +7,8 @@
 body {background: yellow;
 }
 
-h1 {
-    color: purple;
+h1[class=first] {
+    color: white;
 }
 
 .first:hover {
