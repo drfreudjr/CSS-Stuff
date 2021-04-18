@@ -7,15 +7,10 @@
 body {background: yellow;
 }
 
-p{
-    background: white;
-    color: red;
+h1 {
+    color: purple;
 }
 
-h1.first{
-    color: blue;
-}
-
-#name {
-    color:orange;
+.first {
+    color:red;
 }
