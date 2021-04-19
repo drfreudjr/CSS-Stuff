@@ -4,7 +4,7 @@
     padding: 0px;
 }
 
-body {background: yellow;
+body {background: rgb(10,10,10);
 }
 
 h1[class=first] {
@@ -14,3 +14,4 @@ h1[class=first] {
 .first:hover {
     color:red;
 }
+
