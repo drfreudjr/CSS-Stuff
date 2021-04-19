@@ -4,7 +4,7 @@
     padding: 0px;
 }
 
-body {background: steelblue;
+body {background: linear-gradient(to right, red, rgba(50,50,100,.2));
 }
 
 
