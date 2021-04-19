@@ -33,4 +33,8 @@ h1.second{
     font-family: "Zen Dots", sans-serif;
 }
 
-
+#boston {
+    border: 3px solid white;
+    width: 40%;
+    float: right;
+}
