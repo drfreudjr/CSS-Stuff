@@ -7,13 +7,14 @@
 #name{
     color: green;
     font-size: 2em;
-    font-family: Courier;
+    font-family: sans-serif;
 }
 
 h1 {
     font-size: 3em;
     font-weight: 400;
     font-style: oblique;
+    font-family: "Times New Roman", serif;
 }
 
 h1.second{
