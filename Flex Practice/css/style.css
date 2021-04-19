@@ -11,9 +11,10 @@ body{
 .flex-container {
     display: flex;
     background-color: red;
+    height: 100vh;
 }
 
-.flex-container > div {
+.flex-container > img {
     background-color: white;
     margin: 10px;
     padding: 10px;
