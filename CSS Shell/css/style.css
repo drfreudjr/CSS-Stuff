@@ -4,14 +4,7 @@
     padding: 0px;
 }
 
-body {background: rgba(100,100,100, .5);
+body {background: steelblue;
 }
 
-h1[class=first] {
-    color: white;
-}
-
-.first:hover {
-    color:red;
-}
 
