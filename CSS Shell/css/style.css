@@ -8,6 +8,10 @@
     color: green;
 }
 
+h1 {
+    font-size: 3em;
+}
+
 h1.second{
     color: steelblue;
     font-size: 4em;
