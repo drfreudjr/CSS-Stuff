@@ -4,7 +4,7 @@
     padding: 0px;
 }
 
-body {background: rgb(10,10,10);
+body {background: rgba(100,100,100, .5);
 }
 
 h1[class=first] {
