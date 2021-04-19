@@ -7,14 +7,14 @@
 #name{
     color: green;
     font-size: 2em;
-    font-family: sans-serif;
+    font-family: "Arial", sans-serif;
 }
 
 h1 {
     font-size: 3em;
     font-weight: 400;
     font-style: oblique;
-    font-family: "Times New Roman", serif;
+    font-family: "Georgia", serif;
 }
 
 h1.second{
@@ -22,6 +22,7 @@ h1.second{
     font-size: 4em;
     text-align: center;
     font-style: normal;
+    font-family: "Zen Dots", sans-serif;
 }
 
 
