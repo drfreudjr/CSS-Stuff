@@ -1,11 +1,16 @@
 /* Shell CSS file */
 
+:root {
+    --primaryColor: blue;
+}
+
+
 * { margin: 0px;
     padding: 0px;
 }
 
 body{
-    background-color: rgb(0, 150,100, .7);
+    background-color: var(--primaryColor);
 }
 
 #name{
@@ -40,5 +45,7 @@ h1.second{
 }
 
 #zip {
-    font-size: 40px;
+    font-size: 2.5em;
+    text-align: center;
+    translateX(50px);
 }
