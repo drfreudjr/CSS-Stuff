@@ -43,9 +43,3 @@ h1.second{
     width: 40%;
     float: right;
 }
-
-#zip {
-    font-size: 2.5em;
-    text-align: center;
-    translateX(50px);
-}
