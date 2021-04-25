@@ -38,3 +38,7 @@ h1.second{
     width: 40%;
     float: right;
 }
+
+#zip {
+    font-size: 40px;
+}
