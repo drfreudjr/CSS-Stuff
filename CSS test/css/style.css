@@ -1,16 +1,19 @@
 /* Shell CSS file */
 
 :root {
-    --primaryColor: yellow;
+    --primaryColor: blue;
 }
+
 
 
 * { margin: 0px;
     padding: 0px;
+    box-sizing:border-box; 
+    /*now width/height sets box and margin is inside*/
 }
 
 body{
-    background-color: var(--primaryColor);
+    background-color: var(--primaryColor, blue);
 }
 
 #name{
@@ -27,6 +30,7 @@ h1 {
     font-weight: 400;
     font-style: oblique;
     font-family: "Georgia", serif;
+    transition: 5000ms;
 }
 
 h1.second{
@@ -36,6 +40,10 @@ h1.second{
     text-align: center;
     font-style: normal;
     font-family: "Zen Dots", sans-serif;
+}
+
+h1.second:hover {
+    color: yellow;
 }
 
 #boston {
