@@ -4,8 +4,6 @@
     --primaryColor: blue;
 }
 
-
-
 * { margin: 0px;
     padding: 0px;
     box-sizing:border-box; 
@@ -50,4 +48,9 @@ h1.second:hover {
     border: 3px solid white;
     width: 40%;
     float: right;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
 }

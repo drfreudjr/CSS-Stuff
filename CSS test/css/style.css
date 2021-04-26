@@ -43,7 +43,7 @@ h1.second{
 }
 
 h1.second:hover {
-    color: yellow;
+    animation-name: pulse;
 }
 
 #boston {
