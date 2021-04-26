@@ -22,9 +22,11 @@ body{
     padding: 10px;
     margin-left: 50px;
     animation-name: example;
-    animation-delay: 5000ms;
+    animation-delay: 1000ms;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
 }
 
 h1 {
