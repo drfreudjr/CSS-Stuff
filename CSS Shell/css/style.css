@@ -1,13 +1,13 @@
 /* Shell CSS file */
 
-:root {
-    --primaryColor: blue;
-}
-
 * { margin: 0px;
     padding: 0px;
     box-sizing:border-box; 
     /*now width/height sets box and margin is inside*/
+}
+
+:root {
+    --primaryColor: blue;
 }
 
 body{
@@ -19,8 +19,6 @@ body{
     font-size: 2em;
     font-family: "Arial", sans-serif;
     border: 10px solid grey;
-    padding: 10px;
-    margin-left: 50px;
     animation-name: example;
     animation-delay: 1000ms;
     animation-duration: 4s;
@@ -49,6 +47,8 @@ h1.second:hover {
     transition: 5000ms;
     color: yellow;
 }
+
+
 
 #boston {
     border: 3px solid white;
