@@ -24,7 +24,7 @@ body{
     animation-name: example;
     animation-delay: 5000ms;
     animation-duration: 4s;
-    animation-iteration-count: 1000;
+    animation-iteration-count: infinite;
 }
 
 h1 {
