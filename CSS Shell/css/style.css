@@ -21,6 +21,9 @@ body{
     border: 10px solid grey;
     padding: 10px;
     margin-left: 50px;
+    animation-name: example;
+    animation-delay: 5000ms;
+    animation-duration: 4s
 }
 
 h1 {
@@ -28,7 +31,6 @@ h1 {
     font-weight: 400;
     font-style: oblique;
     font-family: "Georgia", serif;
-    transition: 5000ms;
 }
 
 h1.second{
@@ -41,6 +43,7 @@ h1.second{
 }
 
 h1.second:hover {
+    transition: 5000ms;
     color: yellow;
 }
 
