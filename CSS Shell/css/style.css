@@ -23,7 +23,8 @@ body{
     margin-left: 50px;
     animation-name: example;
     animation-delay: 5000ms;
-    animation-duration: 4s
+    animation-duration: 4s;
+    animation-iteration-count: 1000;
 }
 
 h1 {
