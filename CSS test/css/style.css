@@ -53,5 +53,13 @@ h1.second:hover {
 }
 
 @keyframes pulse {
-    
+    from {
+        transform: scale(0.5);
+        opacity: .8;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
