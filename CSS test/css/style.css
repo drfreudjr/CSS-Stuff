@@ -63,3 +63,16 @@ h1.second:hover {
         opacity: 1;
     }
 }
+
+@keyframes fade {
+    from {
+        opacity: .5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.pulse-and-fade {
+    animation: pulse 500ms, fade 500ms;
+}
