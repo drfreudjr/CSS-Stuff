@@ -16,7 +16,7 @@ body{
 }
 
 #name{
-    color: yellow;
+    color: var(--primary-color);
     font-size: 2em;
     font-family: "Arial", sans-serif;
     border: 10px solid grey;
