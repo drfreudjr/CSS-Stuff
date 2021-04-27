@@ -15,7 +15,7 @@ body{
 }
 
 #name{
-    color: green;
+    color: yellow;
     font-size: 2em;
     font-family: "Arial", sans-serif;
     border: 10px solid grey;
@@ -48,10 +48,8 @@ h1.second:hover {
     color: yellow;
 }
 
-
-
 #boston {
-    border: 3px solid white;
+    border: 3px solid magenta;
     width: 40%;
     float: right;
 }
