@@ -7,11 +7,12 @@
 }
 
 :root {
-    --primaryColor: blue;
+    --primary-color: blue;
+    /*--primary-idiot: 'me';*/
 }
 
 body{
-    background-color: var(--primaryColor, blue);
+    background-color: var(--primary-color, blue);
 }
 
 #name{
