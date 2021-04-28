@@ -15,18 +15,7 @@ body{
     background-color: var(--primary-color, blue);
 }
 
-#name{
-    color: var(--primary-color);
-    font-size: 2em;
-    font-family: "Arial", sans-serif;
-    border: 10px solid grey;
-    animation-name: example;
-    animation-delay: 1000ms;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in;
-}
+
 
 h1 {
     font-size: 3em;
@@ -47,6 +36,19 @@ h1.second{
 h1.second:hover {
     transition: 5000ms;
     color: yellow;
+}
+
+#name{
+    color: var(--primary-color);
+    font-size: 2em;
+    font-family: "Arial", sans-serif;
+    border: 10px solid grey;
+    animation-name: example;
+    animation-delay: 1000ms;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
 }
 
 #boston {
