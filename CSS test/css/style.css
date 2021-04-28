@@ -50,7 +50,7 @@ h1.second:hover {
 }*/
 
 #image-container{
-    
+    transform: translateX(-100px);
 }
 
 #boston {
