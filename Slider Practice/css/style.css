@@ -1,0 +1,24 @@
+/* Shell CSS file */
+
+:root {
+    --primaryColor: blue;
+}
+
+* { margin: 0px;
+    padding: 0px;
+    box-sizing:border-box; 
+    /*now width/height sets box and margin is inside*/
+}
+
+body{
+    background-color: var(--primaryColor, blue);
+}
+
+img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image-container {
+}
