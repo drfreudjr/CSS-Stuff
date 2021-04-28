@@ -53,6 +53,7 @@ h1.second:hover {
     transform: translateX(-100px);
     transform: translateY(-100px);
     transform: scale(.5);
+    transform: rotateZ(10deg);
 }
 
 #boston {
@@ -61,4 +62,5 @@ h1.second:hover {
     width: 40%;
     margin-left: auto;
     margin-right: auto;
+    transform: rotateZ(80deg)
 }
