@@ -1,28 +1,28 @@
 /* Shell CSS file */
 
-:root {
-    --primaryColor: blue;
-}
-
 * { margin: 0px;
     padding: 0px;
-    box-sizing:border-box;  /*width/height sets box and margin is inside*/
+    box-sizing:border-box; 
+    /*now width/height sets box and margin is inside*/
+}
+
+:root {
+    --primary-color: blue;
+    /*--primary-idiot: 'me';*/
 }
 
 body{
-    background-color: var(--primaryColor, blue);
+    background-color: var(--primary-color, blue);
 }
 
 #name{
-    color: green;
+    color: var(--primary-color);
     font-size: 2em;
     font-family: "Arial", sans-serif;
     border: 10px solid grey;
-    padding: 10px;
-    margin-left: 50px;
     animation-name: example;
     animation-delay: 1000ms;
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in;
@@ -50,7 +50,7 @@ h1.second:hover {
 }
 
 #boston {
-    border: 3px solid white;
+    border: 3px solid magenta;
     width: 40%;
     float: right;
 }
