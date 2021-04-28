@@ -7,11 +7,12 @@ window.onload = function () {           // onload wrapper
 elName = document.getElementsByTagName('div')
 
 cl(elName[0])
+cl(elName[1])
 
-elName.onmouseover = function () {
+elName[0].onmouseover = function () {
     // elName.style.color = "orange"
-    elName.style.backgroundColor="red"
-    elName.style.fontSize = "500%"
+    elName[1].style.backgroundColor="red"
+    elName[1].style.fontSize = "500%"
 }
 
 }   // end onload wrapper
