@@ -22,7 +22,7 @@ h1 {
     font-family: "Georgia", serif;
 }
 
-h1.second{
+/*h1.second{
     padding: 50px;
     color: steelblue;
     font-size: 4em;
@@ -34,9 +34,9 @@ h1.second{
 h1.second:hover {
     transition: 5000ms;
     color: yellow;
-}
+}*/
 
-#name{
+/*#name{
     color: var(--primary-color);
     font-size: 2em;
     font-family: "Arial", sans-serif;
@@ -47,7 +47,7 @@ h1.second:hover {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in;
-}
+}*/
 
 #boston {
     display:block;
