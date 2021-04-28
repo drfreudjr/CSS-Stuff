@@ -53,9 +53,5 @@ h1.second:hover {
     border: 3px solid magenta;
     width: 40%;
     float: right;
-}
-
-@keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
+    transform: translateX(-200px);
 }

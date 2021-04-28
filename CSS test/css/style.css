@@ -64,3 +64,8 @@ h1.second:hover {
     margin-right: auto;
     transform: rotateZ(80deg)
 }
+
+@keyframes example {
+    from {}
+    to {transform: translateX(-100px)}
+}
