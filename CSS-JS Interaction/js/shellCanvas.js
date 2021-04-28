@@ -6,8 +6,7 @@ window.onload = function () {           // onload wrapper
 
 elName = document.getElementsByTagName('div')
 
-cl(elName[0])
-cl(elName[1])
+cl(elName)
 
 let sz = "500%"
 
