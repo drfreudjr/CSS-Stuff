@@ -2,9 +2,11 @@ const cl = console.log
 
 window.onload = function () {           // onload wrapper
 
-elName = document.getElementById("name")
+// elName = document.getElementById("name")
 
-cl(elName)
+elName = document.getElementsByTagName('div')
+
+cl(elName[0])
 
 elName.onmouseover = function () {
     // elName.style.color = "orange"
