@@ -51,6 +51,8 @@ h1.second:hover {
 
 #image-container{
     transform: translateX(-100px);
+    transform: translateY(-100px);
+    transform: scale(.5);
 }
 
 #boston {
