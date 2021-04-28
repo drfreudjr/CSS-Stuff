@@ -50,9 +50,11 @@ h1.second:hover {
 }
 
 #boston {
+    display:block;
     border: 3px solid magenta;
     width: 40%;
-    float: right;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @keyframes example {
