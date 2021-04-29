@@ -23,9 +23,9 @@ body{
     background-color: var(--primary-color, blue);
 }
 
-img{
+/*img{
     border: 3px solid magenta;
     width: 40%;
     float:left;
 }
-
+*/
