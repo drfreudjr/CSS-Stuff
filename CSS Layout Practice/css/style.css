@@ -23,8 +23,11 @@ body{
     background-color: var(--primary-color, blue);
 }
 
-#boston {
+img{
     border: 3px solid magenta;
     width: 40%;
-    float: left;
+    float:left;
+}
+#boston2 {
+    float: right;
 }
