@@ -23,19 +23,28 @@ body{
 
 .container {
     display:grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100px 150px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px 200px 150px;
     grid-gap:5px;
 }
 
 .menu {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.research {
 
 }
 
-.content {
+.technology {
+
+}
+
+.communication {
 
 }
 
 .footer {
-    
+    grid-column: 1/5;
 }
