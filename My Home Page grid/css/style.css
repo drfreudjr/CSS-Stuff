@@ -23,7 +23,7 @@ body{
 
 .container {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 150px;
     grid-gap:5px;
 }
