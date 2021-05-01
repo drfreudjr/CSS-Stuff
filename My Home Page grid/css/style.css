@@ -1,0 +1,68 @@
+/* Shell CSS file */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+* { margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --primary-color: blue;
+    /*--primary-idiot: 'me';*/
+}
+
+body{
+    background-color: var(--primary-color, blue);
+}
+
+#name{
+    color: var(--primary-color);
+    font-size: 2em;
+    font-family: "Arial", sans-serif;
+    border: 10px solid grey;
+    animation-name: example;
+    animation-delay: 1000ms;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 400;
+    font-style: oblique;
+    font-family: "Georgia", serif;
+}
+
+h1.second{
+    padding: 50px;
+    color: steelblue;
+    font-size: 4em;
+    text-align: center;
+    font-style: normal;
+    font-family: "Zen Dots", sans-serif;
+}
+
+h1.second:hover {
+    transition: 5000ms;
+    color: yellow;
+}
+
+#boston {
+    border: 3px solid magenta;
+    width: 40%;
+    float: right;
+    transform: translateX(-200px);
+}
+
+@keyframes example {
+    from {}
+    to {transform: translateX(-100px)}
+}
