@@ -2,14 +2,14 @@
 
 html {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
-}
-
-* { margin: 0px;
-    padding: 0px;
+    margin: inherit;
+    padding:inherit;
 }
 
 :root {
@@ -18,5 +18,7 @@ html {
 }
 
 body{
-    background-color: var(--primary-color, blue);
+    background-color: var(--primary-color, white);
 }
+
+
