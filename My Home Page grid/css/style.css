@@ -26,24 +26,29 @@
     grid-gap:5px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 50px auto 50px;
+
+    grid-template-areas: 
+        "h h h h"
+        "r t c g"
+        "f f f f";
 }
 
 .menu {
-    grid-column: 1 / -1;
+    grid-area: h;
 }
 
 .research {
-
+    grid-area: r;
 }
 
 .technology {
-
+    grid-area: t;
 }
 
 .communication {
-
+    grid-area: c;
 }
 
 .footer {
-    grid-column: 1 / -1;
+    grid-area: f;
 }
