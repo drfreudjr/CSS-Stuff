@@ -21,4 +21,6 @@ body{
     background-color: var(--primary-color, white);
 }
 
-
+.container {
+    display:grid;
+}
