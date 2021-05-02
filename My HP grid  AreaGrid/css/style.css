@@ -1,0 +1,75 @@
+/* Shell CSS file */
+
+html {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: inherit;
+    padding:inherit;
+}
+
+:root {
+    --color-a: red;
+    --color-b: red;
+    --color-c: red;
+    --color-d: #24505E;
+    --color-e: #303030;
+}
+
+body{
+    background-color: var(--color-d, white);
+}
+
+.container {
+    height: 100vh; /* sets the container from default */
+    display:grid;
+    grid-gap:5px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px auto 50px;
+
+    grid-template-areas: 
+        "h h h h"
+        "r t c g"
+        "f f f f";
+}
+
+h3 {
+    color: #A8D0A6;
+    text-align: center;
+    margin: 10%;
+}
+
+p {
+    color:#F8E9A1;
+    font-size: 1em;
+}
+
+.menu {
+    grid-area: h;
+    background-color: var(--color-e);
+}
+
+.research {
+    grid-area: r;
+}
+
+.technology {
+    grid-area: t;
+}
+
+.communication {
+    grid-area: c;
+}
+
+.graphics {
+    grid-area: g;
+}
+
+.footer {
+    grid-area: f;
+    background-color: var(--color-e);
+}
