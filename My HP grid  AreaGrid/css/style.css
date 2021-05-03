@@ -1,3 +1,4 @@
+/*----------Boiler Plate---------*/
 html {
     box-sizing: border-box;
     margin: 0px;
@@ -22,7 +23,9 @@ html {
         "n n n m m m m m"
         "r r t t c c g g"
         "f f f f f f f f";
-        ---- template only ---- actual in javascript */
+        ---- template only ---- actual in javascript 
+*/
+
 }
 
 .name {grid-area: n;}
@@ -44,21 +47,24 @@ html {
 }
 
 .name {
-    color:white;
     background-color:var(--color-e);
+    color:ivory;
 }
 .menu {
-    background-color:red;
+    background-color:var(--color-e);
+    color:var(--color-c);
 }
 .research {
-    background-color:var(--color-c);
+    background-color:var(--color-d);
 }
 .technology {
-    background-color:var(--color-b);
+    background-color:var(--color-d);
 }
 .communication {
+    background-color:var(--color-d);
 }
 .graphics {
+    background-color:var(--color-d);
 }
 .footer {
 }
