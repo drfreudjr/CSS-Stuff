@@ -47,30 +47,19 @@ html {
     color:white;
     background-color:var(--color-e);
 }
-
 .menu {
     background-color:red;
 }
-
 .research {
     background-color:var(--color-c);
 }
-
 .technology {
     background-color:var(--color-b);
 }
-
 .communication {
 }
-
 .graphics {
 }
-
 .footer {
 }
 
-#name{
-    color:ivory;
-    font-family: "Krona One";
-    margin: 1%;
-}
