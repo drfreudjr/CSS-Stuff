@@ -24,6 +24,8 @@ body{
     background-color: var(--color-d, white);
 }
 
+/*Layout*/
+
 .container {
     height: 100vh; /* sets the container from default */
     display:grid;
@@ -32,33 +34,18 @@ body{
     grid-template-rows: 50px auto 50px;
 
     grid-template-areas: 
-        "h h h h h h h h"
+        "n n m m m m m m"
         "r r t t c c g g"
         "f f f f f f f f";
 }
 
-#name{
-    color:white;
-    font-family: "Krona One";
-    margin: 1%;
-}
-
-h3 {
-    color: #A8D0A6;
-    text-align: center;
-    margin: 10%;
-    font-size: 1.5em;
-    font-family: "Krona One", sans-serif;
-}
-
-p {
-    color:#F8E9A1;
-    font-size: .7em;
-    font-family: Mitr;
+.name {
+    grid-area: n;
+    background-color:white;
 }
 
 .menu {
-    grid-area: h;
+    grid-area: m;
     background-color: var(--color-e);
 }
 
@@ -81,4 +68,26 @@ p {
 .footer {
     grid-area: f;
     background-color: var(--color-e);
+}
+
+
+
+#name{
+    color:white;
+    font-family: "Krona One";
+    margin: 1%;
+}
+
+h3 {
+    color: #A8D0A6;
+    text-align: center;
+    margin: 10%;
+    font-size: 1.5em;
+    font-family: "Krona One", sans-serif;
+}
+
+p {
+    color:#F8E9A1;
+    font-size: .7em;
+    font-family: Mitr;
 }
