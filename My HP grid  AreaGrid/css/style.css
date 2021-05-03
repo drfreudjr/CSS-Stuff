@@ -13,9 +13,9 @@ html {
 }
 
 :root {
-    --color-a: red;
-    --color-b: red;
-    --color-c: red;
+    --color-a: #F8E9A1;
+    --color-b: #A8D0A6;
+    --color-c: #999999;
     --color-d: #24505E;
     --color-e: #303030;
 }
@@ -33,20 +33,24 @@ body{
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 50px auto 50px;
 
-    grid-template-areas: 
+/*    grid-template-areas: 
         "n n m m m m m m"
         "r r t t c c g g"
         "f f f f f f f f";
+        ---- template only ---- actual in javascript */
+}
+.name {
+    grid-area: n;
 }
 
 .name {
-    grid-area: n;
-    background-color:white;
+    color:white;
+    background-color:red;
 }
 
 .menu {
     grid-area: m;
-    background-color: var(--color-e);
+    background-color:var(--color-e);
 }
 
 .research {
