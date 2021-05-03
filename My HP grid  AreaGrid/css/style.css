@@ -28,13 +28,13 @@ body{
     height: 100vh; /* sets the container from default */
     display:grid;
     grid-gap:5px;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 50px auto 50px;
 
     grid-template-areas: 
-        "h h h h"
-        "r t c g"
-        "f f f f";
+        "h h h h h h h h"
+        "r r t t c c g g"
+        "f f f f f f f f";
 }
 
 #name{
@@ -53,7 +53,7 @@ h3 {
 
 p {
     color:#F8E9A1;
-    font-size: 1em;
+    font-size: .7em;
     font-family: Mitr;
 }
 
