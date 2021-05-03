@@ -14,7 +14,7 @@ html {
 
 /*----------Layout----------*/
 
-.container {
+.grid-container {
     height: 100vh; /* set the container to full-size */
     display:grid;
     grid-gap:5px;
