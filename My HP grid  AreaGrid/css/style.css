@@ -12,7 +12,7 @@ html {
     padding:inherit;
 }
 
-/*-------------Layout-------------*/
+/*----------Layout----------*/
 
 .container {
     height: 100vh; /* set the container to full-size */
@@ -27,6 +27,7 @@ html {
         "f f f f f f f f";
         ---- template only ---- actual in javascript */
 }
+
 .name {grid-area: n;}
 .menu {grid-area: m;}
 .research {grid-area: r;}
@@ -34,6 +35,16 @@ html {
 .communication {grid-area: c;}
 .graphics {grid-area: g;}
 .footer {grid-area: f;}
+
+/*----------Style----------*/
+
+:root {
+    --color-a: #F8E9A1;
+    --color-b: #A8D0A6;
+    --color-c: #999999;
+    --color-d: #24505E;
+    --color-e: #303030;
+}
 
 .name {
     color:white;
@@ -57,18 +68,11 @@ html {
 }
 
 .footer {
-    grid-area: f;
 }
 
 
 
-:root {
-    --color-a: #F8E9A1;
-    --color-b: #A8D0A6;
-    --color-c: #999999;
-    --color-d: #24505E;
-    --color-e: #303030;
-}
+
 
 body{
     background-color: var(--color-d, white);
