@@ -12,22 +12,12 @@ html {
     padding:inherit;
 }
 
-:root {
-    --color-a: #F8E9A1;
-    --color-b: #A8D0A6;
-    --color-c: #999999;
-    --color-d: #24505E;
-    --color-e: #303030;
-}
 
-body{
-    background-color: var(--color-d, white);
-}
 
 /*Layout*/
 
 .container {
-    height: 100vh; /* sets the container from default */
+    height: 100vh; /* set the container to full-size */
     display:grid;
     grid-gap:5px;
     grid-template-columns: repeat(8, 1fr);
@@ -39,9 +29,13 @@ body{
         "f f f f f f f f";
         ---- template only ---- actual in javascript */
 }
-.name {
-    grid-area: n;
-}
+.name {grid-area: n;}
+.menu {grid-area: m;}
+.research {grid-area: r;}
+.technology {grid-area: t;}
+.communication {grid-area: c;}
+.graphics {grid-area: g;}
+.footer {grid-area: f;}
 
 .name {
     color:white;
@@ -49,32 +43,38 @@ body{
 }
 
 .menu {
-    grid-area: m;
     background-color:var(--color-e);
 }
 
 .research {
-    grid-area: r;
 }
 
 .technology {
-    grid-area: t;
 }
 
 .communication {
-    grid-area: c;
 }
 
 .graphics {
-    grid-area: g;
 }
 
 .footer {
     grid-area: f;
-    background-color: var(--color-e);
 }
 
 
+
+:root {
+    --color-a: #F8E9A1;
+    --color-b: #A8D0A6;
+    --color-c: #999999;
+    --color-d: #24505E;
+    --color-e: #303030;
+}
+
+body{
+    background-color: var(--color-d, white);
+}
 
 #name{
     color:white;
