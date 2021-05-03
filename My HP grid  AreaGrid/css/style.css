@@ -12,9 +12,7 @@ html {
     padding:inherit;
 }
 
-
-
-/*Layout*/
+/*-------------Layout-------------*/
 
 .container {
     height: 100vh; /* set the container to full-size */
