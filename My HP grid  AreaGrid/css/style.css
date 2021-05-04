@@ -48,6 +48,9 @@ html {
 .name {
     background-color:var(--color-e);
     color:ivory;
+
+    font-size: 2em;
+    font-family: "Mitr";
 }
 .menu {
     background-color:var(--color-e);
