@@ -52,7 +52,6 @@ html {
 .name {
     background-color:var(--color-e);
     color:ivory;
-
     font-size: 2.5vw;
     font-family: "Mitr";
 }
@@ -62,6 +61,9 @@ html {
     width: 100%;
 }
 
+.link1{
+    justify-content:space-between;
+}
 
 .header {
     color:white;
