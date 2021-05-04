@@ -42,7 +42,7 @@ html {
 .menu {
     display:flex;
     border: 1px solid white;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 /*----------Style----------*/
