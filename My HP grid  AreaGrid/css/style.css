@@ -36,7 +36,7 @@ html {
 .footer {grid-area: f;}
 
 .name {
-    padding: 0%;
+    padding: 2%;
     border: 1px solid white;
 }
 
@@ -68,18 +68,14 @@ html {
 }
 .menu {
     background-color:var(--color-e);
-    color:var(--color-c);
-}
-
-.link1{
-
+    color:var(--color-b);
 }
 
 .header {
     color:white;
 }
 
-.column > div {             /* column headers */
+.column > div {             /* column titles */
     text-align: center;
     margin: 5%;
     font-size: 1.5vw;
@@ -87,7 +83,7 @@ html {
     color:var(--color-b);
 }
 
-.column > p {               /* column content */
+.column > p {               /* column text */
     color:var(--color-a);
     text-align: left;
     padding: 5%;
@@ -104,6 +100,7 @@ html {
 }
 .graphics {
     background-color:var(--color-d);
+    border: 1px solid white;
 }
 .footer {
     background-color:var(--color-e);
