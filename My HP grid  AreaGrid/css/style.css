@@ -39,6 +39,10 @@ html {
     padding-left: 7%;
 }
 
+.menu {
+    display:flex;
+}
+
 /*----------Style----------*/
 
 :root {
@@ -58,7 +62,6 @@ html {
 .menu {
     background-color:var(--color-e);
     color:var(--color-c);
-    width: 100%;
 }
 
 .link1{
