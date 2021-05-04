@@ -67,11 +67,17 @@ html {
 
 .column > div {             /* column headers */
     text-align: center;
+    margin: 5%;
+    font-size: 1.5vw;
+    font-family: "Krona One";
     color:var(--color-b);
 }
 
 .column > p {               /* column content */
     color:var(--color-a);
+    text-align: left;
+    padding: 5%;
+    font-family: "Courier"
 }
 .research {
     background-color:var(--color-d);
