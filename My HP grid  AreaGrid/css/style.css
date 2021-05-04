@@ -43,7 +43,7 @@ html {
 .menu {
     display:flex;
     border: 1px solid white;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .link {
