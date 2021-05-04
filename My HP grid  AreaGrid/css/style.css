@@ -65,9 +65,13 @@ html {
     color:white;
 }
 
-.column{
+.column > div {        /* headers */
     text-align: center;
     color:red;
+}
+
+.column > p {           /* content */
+    color:yellow;
 }
 .research {
     background-color:var(--color-d);
