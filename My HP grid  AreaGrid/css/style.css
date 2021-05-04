@@ -17,7 +17,7 @@ html {
     display:grid;
     grid-gap:0px;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 10% auto 5%;
+    grid-template-rows: 15% auto 5%;
 
 /*    grid-template-areas: 
         "n n n m m m m m"
@@ -65,13 +65,13 @@ html {
     color:white;
 }
 
-.column > div {        /* headers */
+.column > div {             /* column headers */
     text-align: center;
-    color:red;
+    color:var(--color-b);
 }
 
-.column > p {           /* content */
-    color:yellow;
+.column > p {               /* column content */
+    color:var(--color-a);
 }
 .research {
     background-color:var(--color-d);
