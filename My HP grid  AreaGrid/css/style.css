@@ -41,6 +41,7 @@ html {
 
 .menu {
     display:flex;
+    border: 1px solid white;
 }
 
 /*----------Style----------*/
