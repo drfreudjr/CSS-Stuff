@@ -20,10 +20,10 @@ html {
     grid-template-rows: 15% auto 5%;
 
 /*    grid-template-areas: 
-        "n n n m m m m m"
+        "n n n m m m g g"
         "r r t t c c g g"
         "f f f f f f f f";
-        ---- draft only ---- actual in javascript 
+        ---- full screen draft ---- actual in javascript 
 */
 }
 
@@ -36,13 +36,18 @@ html {
 .footer {grid-area: f;}
 
 .name {
-    padding-left: 7%;
+    padding: 0%;
+    border: 1px solid white;
 }
 
 .menu {
     display:flex;
     border: 1px solid white;
     justify-content: space-between;
+}
+
+.link {
+
 }
 
 /*----------Style----------*/
