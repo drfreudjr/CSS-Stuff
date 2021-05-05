@@ -1,4 +1,4 @@
-/*----------Environment Stuff---------*/
+/*---Boiler Plate----*/
 html {
     box-sizing: border-box;
     margin: 0px;
@@ -72,7 +72,6 @@ html {
 }
 
 .header {
-    color:white;
 }
 
 .column > div {             /* column titles */
