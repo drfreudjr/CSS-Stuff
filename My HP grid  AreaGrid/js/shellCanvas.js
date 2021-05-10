@@ -32,10 +32,6 @@ function crazyLines () {
     iteration++
 
 
-    if (r<255) r+=1
-
-    // width = width +1.5
-    // height = height +.6
     iteration++
     cyclesPerFrame = 100000
 
