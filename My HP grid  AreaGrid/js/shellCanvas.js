@@ -57,11 +57,5 @@ function crazyLines () {
 
 setTimeout(crazyLines(),0)
 
-function fadeOut() {
-    context.strokeStyle = 'black'
-    context.fillRect(0,0,innerWidth, innerHeight)
-}
-
-
 }   // end drawScreen wrapper
 }   // end onload wrapper
