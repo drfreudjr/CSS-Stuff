@@ -15,7 +15,7 @@ let elCanvas = document.getElementById('canvas')
 let context = canvas.getContext("2d");  
 
 context.fillStyle="yellow"
-context.fillRect(0, 0, 10, 300)
+context.fillRect(0, 0, window.innerWidth, window.innerHeight)
 
 
 

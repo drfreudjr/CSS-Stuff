@@ -48,6 +48,10 @@ html {
     justify-content: space-around;
 }
 
+.graphics {
+    position: relative;
+}
+
 .link {
 
 }
@@ -112,6 +116,10 @@ html {
 .footer {
     background-color:var(--color-e);
 }
-
+canvas {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
 /*------------Graphics Pane-------------*/
 
