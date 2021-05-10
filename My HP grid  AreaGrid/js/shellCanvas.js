@@ -12,7 +12,7 @@ window.onload = function () {           // onload wrapper
 // ----- Graphics Pane ---- //
 
 let elCanvas = document.getElementById('canvas')
-// context = canvas.getContext("2d");  
+let context = canvas.getContext("2d");  
 
 
 
