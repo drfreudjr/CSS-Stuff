@@ -14,7 +14,6 @@ window.onload = function () {           // onload wrapper
 let elCanvas = document.getElementById('canvas')
 let context = canvas.getContext("2d");  
 
-
 drawScreen()
 
 function drawScreen() {  // wrapper that gets called on resize event
@@ -24,9 +23,7 @@ let width = 0
 let height = 0
 let iteration = 1
 
-let r = 0
-let g = 0
-let b = 0
+let r,b,g = 0
 
 function crazyLines () {
 
