@@ -1,4 +1,5 @@
 /*---Boiler Plate----*/
+
 html {
     box-sizing: border-box;
     margin: 0px;
@@ -12,17 +13,18 @@ html {
 }
 
 /*----------Layout----------*/
+
 .grid-container {
     height: 100vh; /* set the container to full-size */
     display:grid;
-    grid-gap:0px;
+    /*grid-gap:1px;*/
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 15% auto 5%;
 
 /*    grid-template-areas: 
-        "n n n m m m g g"
-        "r r t t c c g g"
-        "f f f f f f f f";
+        "n n n n n n n n m m m m m m g g g g"
+        "r r r r r t t t t t c c c c g g g g"
+        "f f f f f f f f f f f f f f f f f f";
         ---- full screen draft ---- actual in javascript 
 */
 }
@@ -36,14 +38,18 @@ html {
 .footer {grid-area: f;}
 
 .name {
-    padding: 2%;
-    border: 1px solid white;
+    padding: 3%;
+    /*border: 1px solid white;*/
 }
 
 .menu {
     display:flex;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     justify-content: space-around;
+}
+
+.graphics {
+    position: relative;
 }
 
 .link {
@@ -66,6 +72,7 @@ html {
     font-size: 2.5vw;
     font-family: "Mitr";
 }
+
 .menu {
     background-color:var(--color-e);
     color:var(--color-b);
@@ -99,9 +106,20 @@ html {
 }
 .graphics {
     background-color:var(--color-d);
-    border: 1px solid white;
+    /*border: 1px solid white;*/
 }
+
+.graphics > img {
+
+}
+
 .footer {
     background-color:var(--color-e);
 }
+canvas {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+/*------------Graphics Pane-------------*/
 

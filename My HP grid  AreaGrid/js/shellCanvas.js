@@ -25,4 +25,3 @@ context.fillStyle="brown"
 context.fillRect(0, 0, innerWidth, innerHeight)
 
 }   // end onload wrapper
-
