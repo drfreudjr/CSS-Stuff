@@ -14,10 +14,18 @@ window.onload = function () {           // onload wrapper
 let elCanvas = document.getElementById('canvas')
 let context = canvas.getContext("2d");  
 
-context.fillStyle="yellow"
-context.fillRect(0, 0, window.innerWidth, window.innerHeight)
+let width, height
 
+width = canvas.clientWidth
+height = canvas.clientHeight
 
+cl(width,height)
+
+context.fillStyle="brown"
+// context.fillRect(0, 0, window.innerWidth, window.innerHeight)
+context.fillRect(0,0, width, height)
+
+// should i use innerWidth or ClientWidth? //
 
 }   // end onload wrapper
 
