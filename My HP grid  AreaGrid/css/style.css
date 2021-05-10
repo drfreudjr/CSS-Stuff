@@ -17,7 +17,7 @@ html {
 .grid-container {
     height: 100vh; /* set the container to full-size */
     display:grid;
-    grid-gap:0px;
+    grid-gap:1px;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 15% auto 5%;
 
@@ -39,7 +39,7 @@ html {
 
 .name {
     padding: 3%;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
 }
 
 .menu {
@@ -112,4 +112,6 @@ html {
 .footer {
     background-color:var(--color-e);
 }
+
+/*------------Graphics Pane-------------*/
 
