@@ -106,7 +106,7 @@ html {
 }
 .graphics {
     background-color:var(--color-d);
-    border: 1px solid white;
+    /*border: 1px solid white;*/
 }
 
 .graphics > img {
