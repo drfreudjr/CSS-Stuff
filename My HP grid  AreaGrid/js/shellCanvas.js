@@ -42,7 +42,7 @@ function crazyLines () {
     for (let i = 0; i < cyclesPerFrame; ++i) {
         cyclesPerFrame=cyclesPerFrame- 2000
 
-        context.strokeStyle = `rgb(${r},${g},${b})`
+        context.strokeStyle = `#303030`
         x = Math.round(Math.random()*width*2)
         y = Math.round(Math.random()*height*2)
         dx = Math.round(Math.random()*innerWidth-width*2)
