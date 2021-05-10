@@ -29,8 +29,6 @@ let g = 0
 let b = 0
 
 function crazyLines () {
-    iteration++
-
 
     iteration++
     cyclesPerFrame = 100000
