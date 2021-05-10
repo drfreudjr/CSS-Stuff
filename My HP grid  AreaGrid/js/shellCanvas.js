@@ -22,10 +22,7 @@ height = canvas.clientHeight
 cl(width,height)
 
 context.fillStyle="brown"
-// context.fillRect(0, 0, window.innerWidth, window.innerHeight)
-context.fillRect(0,0, width, height)
-
-// should i use innerWidth or ClientWidth? //
+context.fillRect(0, 0, innerWidth, innerHeight)
 
 }   // end onload wrapper
 
