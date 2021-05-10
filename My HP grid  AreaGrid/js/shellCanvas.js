@@ -1,6 +1,6 @@
 const cl = console.log
 
-// -------Layout ---------- //
+// ------- Overall Layout ---------- //
 
 window.onload = function () {           // onload wrapper
 
@@ -53,7 +53,6 @@ function crazyLines () {
     // if (iteration < 600)
         requestAnimationFrame(crazyLines)
 }
-
 
 setTimeout(crazyLines(),0)
 
