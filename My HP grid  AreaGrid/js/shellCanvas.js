@@ -40,7 +40,7 @@ function crazyLines () {
     cyclesPerFrame = 100000
 
     for (let i = 0; i < cyclesPerFrame; ++i) {
-        cyclesPerFrame=cyclesPerFrame- 2000
+        cyclesPerFrame=cyclesPerFrame- 200
 
         context.strokeStyle = `#303030`
         x = Math.round(Math.random()*width*2)
