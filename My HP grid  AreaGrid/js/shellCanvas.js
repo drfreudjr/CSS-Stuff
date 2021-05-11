@@ -22,15 +22,13 @@ function drawScreen() {  // wrapper that gets called on resize event
 let width = innerWidth
 let height = innerHeight
 
-cl(width,height)
-
 let r,b,g = 0
 let x,y = 0
 
 function randomDots () {
 
-
-
+    x = Math.floor(math.Random()*width)
+    y = Math.floor(math.Random()*height)
         requestAnimationFrame(crazyLines)
 }
 
