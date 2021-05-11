@@ -34,9 +34,9 @@ function crazyLines () {
         cyclesPerFrame=cyclesPerFrame- 200
 
         context.strokeStyle = `#303030`
-        x = Math.round(Math.random()*width*2)
-        y = Math.round(Math.random()*height*2)
-        dx = Math.round(Math.random()*innerWidth-width*2)
+        x = Math.round(Math.random()*width*.1)
+        y = Math.round(Math.random()*height*1)
+        dx = Math.round(Math.random()*innerWidth-width*1)
         dy = Math.round(Math.random()*innerHeight-height*2)
 
         context.beginPath()
