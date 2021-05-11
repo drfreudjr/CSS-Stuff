@@ -25,8 +25,10 @@ let height = innerHeight
 cl(width,height)
 
 let r,b,g = 0
+let x,y = 0
 
 function randomDots () {
+
 
 
         requestAnimationFrame(crazyLines)
