@@ -19,39 +19,19 @@ drawScreen()
 function drawScreen() {  // wrapper that gets called on resize event
     //  //  // Enter Page Specific Code here
 
-let width = 0
-let height = 0
-let iteration = 1
+let width = innerWidth
+let height = innerHeight
+
+cl(width,height)
 
 let r,b,g = 0
 
-function crazyLines () {
+function randomDots () {
 
-    iteration++
-    cyclesPerFrame = 100000
 
-    for (let i = 0; i < cyclesPerFrame; ++i) {
-        cyclesPerFrame=cyclesPerFrame- 200
-
-        context.strokeStyle = `#303030`
-        x = Math.round(Math.random()*width*.1)
-        y = Math.round(Math.random()*height*1)
-        dx = Math.round(Math.random()*innerWidth-width*1)
-        dy = Math.round(Math.random()*innerHeight-height*2)
-
-        context.beginPath()
-        context.moveTo(x,y)
-        context.lineTo(dx,dy)
-        context.stroke()
-        context.strokeStyle = `rgb(${r+=10},${g},${b})`
-        context.fillRect(dx,dy,dx,dy)
-
-    }
-    // if (iteration < 600)
         requestAnimationFrame(crazyLines)
 }
 
-setTimeout(crazyLines(),0)
 
 }   // end drawScreen wrapper
 }   // end onload wrapper
