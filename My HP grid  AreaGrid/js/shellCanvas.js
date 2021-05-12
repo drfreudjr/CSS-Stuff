@@ -25,12 +25,25 @@ let height = innerHeight
 let r,b,g = 0
 let x,y = 0
 
-function randomDots () {
+function crazyLines () {
 
-    x = Math.floor(math.Random()*width)
-    y = Math.floor(math.Random()*height)
-        requestAnimationFrame(crazyLines)
+    if (r<255) r+=.1
+
+    context.strokeStyle = `rgb(${r},${g},${b})`
+    x = Math.round(Math.random()*width)
+    y = Math.round(Math.random()*height)
+    dx = Math.round(Math.random()*width)
+    dy = Math.round(Math.random()*height)
+
+    context.beginPath()
+    context.moveTo(x,y)
+    context.lineTo(dx,dy)
+    context.stroke()
+
+    requestAnimationFrame(crazyLines)
 }
+
+crazyLines()
 
 
 }   // end drawScreen wrapper
