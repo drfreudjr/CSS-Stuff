@@ -16,7 +16,7 @@ let context = canvas.getContext("2d");
 
 drawScreen()
 
-function drawScreen() {  // wrapper that gets called on resize event
+function drawScreen() {  // wrapper that gets called on resize events
     //  //  // Enter Page Specific Code here
 
 let width = innerWidth
