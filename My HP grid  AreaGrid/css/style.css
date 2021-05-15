@@ -105,7 +105,9 @@ html {
     background-color:var(--color-d);
 }
 .graphics {
-    background-color:var(--color-d);
+    background-color:var(--color-e);
+    margin: 0px;
+    padding: 0px;
     /*border: 1px solid white;*/
 }
 
