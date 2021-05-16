@@ -17,7 +17,7 @@ html {
 .grid-container {
     height: 100vh; /* set the container to full-size */
     display:grid;
-    /*grid-gap:1px;*/
+    grid-gap:1px;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: 15% auto 5%;
 
@@ -31,6 +31,7 @@ html {
 
 .name {grid-area: n;}
 .menu {grid-area: m;}
+.photo {grid-area: p;}
 .research {grid-area: r;}
 .technology {grid-area: t;}
 .communication {grid-area: c;}
