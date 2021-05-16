@@ -11,7 +11,7 @@ window.onload = function () {           // onload wrapper
 
     elGridContainer[0].style.gridTemplateAreas =    `'n n n n n p m m m m m m g g g g' 
                                                      'c c c c r r r r t t t t g g g g' 
-                                                     'f f f f f f f f f f f f f f f f'`
+                                                     'f f f f f f f f f f f f g g g g'`
 
 // ----- Graphics Pane ---- //
 
