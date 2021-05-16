@@ -25,6 +25,7 @@ html {
 .name {grid-area: n;}
 .menu {grid-area: m;}
 .photo {grid-area: p;}
+.space {grid-area: s;}
 .research {grid-area: r;}
 .technology {grid-area: t;}
 .communication {grid-area: c;}
