@@ -49,6 +49,9 @@ html {
     justify-content: space-around;
 }
 
+.photo {
+}
+
 .graphics {
     position: relative;
 }
@@ -84,6 +87,10 @@ html {
 }
 
 .header {
+}
+
+.photo {
+    color:var(--color-b);    
 }
 
 .column > div {             /* column titles */
