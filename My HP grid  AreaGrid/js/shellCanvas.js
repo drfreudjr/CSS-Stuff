@@ -6,8 +6,8 @@ window.onload = function () {           // onload wrapper
 let elGridContainer = document.getElementsByClassName("grid-container")
 
 elGridContainer[0].style.gridTemplateAreas =    `'n n n n n n m m m m m p g g g g' 
-                                                     'c c c c r r r r t t t t g g g g' 
-                                                     'f f f f f f f f f f f f g g g g'`
+                                                 'c c c c r r r r t t t t g g g g' 
+                                                 'f f f f f f f f f f f f g g g g'`
 
 // ----- Graphics Pane ---- //
 
@@ -35,9 +35,7 @@ function test() {
     context.lineCap  = 'square'
     context.beginPath()
     context.moveTo(0, 0)
-    context.lineTo(width, 0)
-    // context.lineTo(width,height)
-    context.lineTo(width,height)
+    context.lineTo(width, 150)
     context.stroke()
     // context.closePath();
 }
