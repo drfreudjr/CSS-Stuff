@@ -5,9 +5,6 @@ const cl = console.log
 window.onload = function () {           // onload wrapper
 
     let elGridContainer = document.getElementsByClassName("grid-container")
-    // elGridContainer[0].style.gridTemplateAreas =    `'n n n m m m g g' 
-    //                                                  'c c r r t t g g' 
-    //                                                  'f f f f f f f f'`
 
     elGridContainer[0].style.gridTemplateAreas =    `'n n n n n n m m m m m p g g g g' 
                                                      'c c c c r r r r t t t t g g g g' 
