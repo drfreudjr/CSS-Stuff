@@ -23,7 +23,7 @@ function drawScreen() {  // wrapper that gets called on resize events
 // let width = elCanvas.clientWidth    // trying to figure out scroll border
 // let height = elCanvas.clientHeight
 
-let width = elCanvas.offsetWidth-30
+let width = elCanvas.offsetWidth-25
 let height = elCanvas.offsetHeight
 
 cl(width, height)
