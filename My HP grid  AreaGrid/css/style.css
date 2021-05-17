@@ -44,7 +44,9 @@ html {
 }
 
 .photo {
-    object-fit: cover
+    background-image: url(me.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .graphics {
@@ -85,7 +87,7 @@ html {
 }
 
 .photo {
-    background-color:blue;    
+    background-color:var(--color-e);
 }
 
 .column > div {             /* column titles */
