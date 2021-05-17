@@ -44,7 +44,7 @@ html {
 }
 
 .photo {
-
+    object-fit: cover
 }
 
 .graphics {
