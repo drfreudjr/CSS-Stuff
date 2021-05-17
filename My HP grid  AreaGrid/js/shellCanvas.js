@@ -36,10 +36,10 @@ function test() {
     context.beginPath()
     context.moveTo(0, 0)
     context.lineTo(width, 0)
+    // context.lineTo(width,height)
     context.lineTo(width,height)
-    context.lineTo(0,height)
     context.stroke()
-    context.closePath();
+    // context.closePath();
 }
 
 
