@@ -47,6 +47,7 @@ html {
     background-image: url(me.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center right;
 }
 
 .graphics {
