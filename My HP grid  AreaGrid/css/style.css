@@ -44,6 +44,7 @@ html {
 }
 
 .photo {
+
 }
 
 .graphics {
@@ -84,7 +85,7 @@ html {
 }
 
 .photo {
-    color:var(--color-b);    
+    background-color:blue;    
 }
 
 .column > div {             /* column titles */
