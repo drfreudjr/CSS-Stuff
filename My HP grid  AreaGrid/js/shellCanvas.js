@@ -24,21 +24,23 @@ function drawScreen() {  // wrapper that gets called on resize events
 // let width = elCanvas.clientWidth    // trying to figure out scroll border
 // let height = elCanvas.clientHeight
 
-let width = elCanvas.offsetWidth
+let width = elCanvas.offsetWidth-30
 let height = elCanvas.offsetHeight
 
 cl(width, height)
 
 test()
 function test() {
-    context.strokeStyle  = "yellow";
-    context.lineWidth  = 10;
-    context.lineCap  = 'square';   
-    context.beginPath();   
-    context.moveTo(0, 0);   
-    context.lineTo(width-10, 0);  
-    context.stroke();   
-    // context.closePath();
+    context.strokeStyle  = "yellow"
+    context.lineWidth  = 10
+    context.lineCap  = 'square'
+    context.beginPath()
+    context.moveTo(0, 0)
+    context.lineTo(width, 0)
+    context.lineTo(width,height)
+    context.lineTo(0,height)
+    context.stroke()
+    context.closePath();
 }
 
 
