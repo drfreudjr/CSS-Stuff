@@ -1,0 +1,137 @@
+/*---Boiler Plate----*/
+
+html {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: inherit;
+    padding:inherit;
+}
+
+/*----------Layout----------*/
+
+.grid-container {
+    height: 100vh; /* set the container to full-size */
+    display:grid;
+    /*grid-gap:1px;*/
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: 15% auto 5%;
+}
+
+.name {grid-area: n;}
+.menu {grid-area: m;}
+.photo {grid-area: p;}
+.space {grid-area: s;}
+.research {grid-area: r;}
+.technology {grid-area: t;}
+.communication {grid-area: c;}
+.graphics {grid-area: g;}
+.footer {grid-area: f;}
+
+.name {
+    padding: 3%;
+    /*border: 1px solid white;*/
+}
+
+.menu {
+    display:flex;
+    /*border: 1px solid white;*/
+    justify-content: space-around;
+}
+
+.photo {
+    background-image: url(me.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.graphics {
+    position: relative;
+}
+
+.link {
+
+}
+
+/*----------Style----------*/
+
+:root {
+    --color-a: #F8E9A1;
+    --color-b: #A8D0A6;
+    --color-c: #999999;
+    --color-d: #24505E;
+    --color-e: #303030;
+}
+
+.body {
+    background-color:var(--color-e);   
+}
+
+.name {
+    background-color:var(--color-e);
+    color:ivory;
+    font-size: 2.5vw;
+    font-family: "Mitr";
+}
+
+.menu {
+    background-color:var(--color-e);
+    color:var(--color-b);
+}
+
+.header {
+}
+
+.photo {
+    background-color:var(--color-e);
+}
+
+.column > div {             /* column titles */
+    text-align: center;
+    margin: 5%;
+    font-size: 1.5vw;
+    font-family: "Krona One";
+    color:var(--color-b);
+}
+
+.column > p {               /* column text */
+    color:var(--color-a);
+    text-align: left;
+    padding: 5%;
+    font-family: "Courier"
+}
+.research {
+    background-color:var(--color-d);
+}
+.technology {
+    background-color:var(--color-d);
+}
+.communication {
+    background-color:var(--color-d);
+}
+.graphics {
+    background-color:var(--color-e);
+    margin: 0px;
+    padding: 0px;
+    /*border: 1px solid white;*/
+}
+
+.graphics > img {
+
+}
+
+.footer {
+    background-color:var(--color-e);
+}
+canvas {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+/*------------Graphics Pane-------------*/
+
