@@ -17,7 +17,7 @@ html {
 .grid-container {
     height: 100vh; /* set the container to full-size */
     display:grid;
-    grid-gap:1px;
+    /*grid-gap:1px;*/
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: 15% auto 5%;
 }
@@ -44,6 +44,10 @@ html {
 }
 
 .photo {
+    background-image: url(me.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
 }
 
 .graphics {
@@ -84,7 +88,7 @@ html {
 }
 
 .photo {
-    color:var(--color-b);    
+    background-color:var(--color-e);
 }
 
 .column > div {             /* column titles */

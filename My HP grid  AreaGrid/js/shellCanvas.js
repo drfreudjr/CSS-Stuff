@@ -12,6 +12,9 @@ elGridContainer[0].style.gridTemplateAreas =    `'n n n n n n m m m m m p g g g 
 
 let elCanvas = document.getElementById('canvas')
 let context = canvas.getContext("2d");  
+context.canvas.width = .25*window.innerWidth    // !!! NEED TO DRAW CANVAS ON TOP OF GRID
+                                                // do an on size calc //
+context.canvas.height = innerHeight
 let box = getComputedStyle(elCanvas)
 
 drawScreen()
@@ -33,8 +36,8 @@ function test() {
     context.lineWidth  = 1
     context.lineCap  = 'square'
     context.beginPath()
-    context.moveTo(310, 0)
-    context.lineTo(10, 307)
+    context.moveTo(0, 0)
+    context.lineTo(width, height)
     // context.lineTo(100, 50)
     context.stroke()
     // context.closePath();
