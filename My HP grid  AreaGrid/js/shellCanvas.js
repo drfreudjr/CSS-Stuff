@@ -10,12 +10,18 @@ elGridContainer[0].style.gridTemplateAreas =    `'n n n n n n m m m m m p g g g 
                                                  'f f f f f f f f f f f f g g g g'`
 // ----- Graphics Pane ---- //
 
-let elCanvas = document.getElementById('canvas')
-let context = canvas.getContext("2d");  
+let elCanvas;                             
+let context; 
+
+elCanvas = document.getElementById('canvas')
+context = canvas.getContext("2d");  
+
+
+
+
 context.canvas.width = .25*window.innerWidth    // !!! NEED TO DRAW CANVAS ON TOP OF GRID
                                                 // do an on size calc //
 context.canvas.height = innerHeight
-let box = getComputedStyle(elCanvas)
 
 drawScreen()
 
