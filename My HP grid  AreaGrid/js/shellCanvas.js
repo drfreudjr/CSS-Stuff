@@ -3,51 +3,56 @@ const cl = console.log
 window.onload = function () {           // onload wrapper
 
 // ------- Overall Layout ---------- //
+
 let elGridContainer = document.getElementsByClassName("grid-container")
 
 elGridContainer[0].style.gridTemplateAreas =    `'n n n n n n m m m m m p g g g g' 
                                                  'c c c c r r r r t t t t g g g g' 
                                                  'f f f f f f f f f f f f g g g g'`
-// ----- Graphics Pane ---- //
+// // ----- Graphics Pane ---- //
 
-let elCanvas;                             
-let context; 
+window.addEventListener("resize", sizeCanvas); 
+sizeCanvas()                            // create initial canvas
 
-elCanvas = document.getElementById('canvas')
-context = canvas.getContext("2d");  
+    function sizeCanvas () {                // Create or resize 
 
+        cl('here')
+        if (canvas === undefined) {         
+            canvas = createCanvas();        
+        }
 
+        function createCanvas () {   
+            const canvas = document.createElement("canvas"); 
+            canvas.style.position = "absolute"; 
+            canvas.style.left     = "0px";      
+            canvas.style.top      = "0px";
 
+            document.body.appendChild(canvas);  // Add to document
+            context = canvas.getContext("2d");  
+            return canvas;
+        }
 
-context.canvas.width = .25*window.innerWidth    // !!! NEED TO DRAW CANVAS ON TOP OF GRID
-                                                // do an on size calc //
-context.canvas.height = innerHeight
+        canvas.width  = window.innerWidth; 
+        canvas.height = window.innerHeight;    
+    }
 
-drawScreen()
+// drawScreen()
 
 function drawScreen() {  // wrapper that gets called on resize events
     //  //  // Enter Page Specific Code here
 
-let width = elCanvas.clientWidth    
-let height = elCanvas.clientHeight
-
-// let width = elCanvas.offsetWidth
-// let height = elCanvas.offsetHeight
-
-cl(width, height)
-
-test()
-function test() {
-    context.strokeStyle  = "blue"
-    context.lineWidth  = 1
-    context.lineCap  = 'square'
-    context.beginPath()
-    context.moveTo(0, 0)
-    context.lineTo(width, height)
-    // context.lineTo(100, 50)
-    context.stroke()
-    // context.closePath();
-}
+// test()
+// function test() {
+//     context.strokeStyle  = "blue"
+//     context.lineWidth  = 1
+//     context.lineCap  = 'square'
+//     context.beginPath()
+//     context.moveTo(0, 0)
+//     context.lineTo(width, height)
+//     // context.lineTo(100, 50)
+//     context.stroke()
+//     // context.closePath();
+// }
 
 
 }   // end drawScreen wrapper
